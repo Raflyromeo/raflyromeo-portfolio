@@ -1,7 +1,6 @@
 import { Project } from "@/types/projectCard.type";
-import { FaAndroid, FaFigma, FaReact } from "react-icons/fa";
+import { FaAndroid, FaFigma } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiNextdotjs } from "react-icons/si";
 import { SlGlobe } from "react-icons/sl";
 
 export const projects: Project[] = [
@@ -18,7 +17,11 @@ export const projects: Project[] = [
       { icon: <FaFigma />, label: "Figma" },
     ],
     overview:
-      "Saya berhasil merancang desain Open Recruitment VOLUNTEER BEM FIKTI UG Periode 2024/2025, yang merupakan program untuk mengajak mahasiswa/i aktif FIKTI UG berkontribusi dan menciptakan dampak nyata melalui berbagai kegiatan organisasi. Proses ini dilakukan melalui kolaborasi dengan Biro Media dalam pembuatan aset visual dan Biro Humas dalam penyusunan copywriting.",
+      "Saya berhasil merancang desain Open Recruitment VOLUNTEER BEM FIKTI UG Periode 2024/2025, bekerja sama dengan Biro Media dan Biro Humas untuk pembuatan aset visual dan copywriting.",
+    solution:
+      "Mengembangkan konsep desain web dan poster yang konsisten dengan branding BEM FIKTI UG.",
+    result:
+      "Website pendaftaran sukses digunakan oleh ratusan mahasiswa untuk mendaftar sebagai volunteer.",
   },
 
   {
@@ -34,7 +37,11 @@ export const projects: Project[] = [
       { icon: <FaFigma />, label: "Figma" },
     ],
     overview:
-      "Saya berhasil merancang desain Gelar Budaya FIKTI UG 2025, sebuah ajang seni tahunan BEM FIKTI Departemen Olahraga dan Seni Budaya yang menjadi wadah bagi mahasiswa untuk menyalurkan kreativitas, bakat, serta memperkenalkan beragam ekspresi seni. Proyek ini dikerjakan melalui kolaborasi dengan Biro Media dalam pembuatan aset visual dan Biro Humas dalam penyusunan copywriting.",
+      "Merancang desain Gelar Budaya FIKTI UG 2025 melalui kolaborasi dengan Biro Media untuk visual dan Biro Humas untuk copywriting.",
+    solution:
+      "Membuat materi desain event dan publikasi yang menarik serta mudah dipahami audiens.",
+    result:
+      "Publikasi berhasil menarik antusiasme tinggi, meningkatkan partisipasi acara.",
   },
 
   {
@@ -50,7 +57,11 @@ export const projects: Project[] = [
       { icon: <FaFigma />, label: "Figma" },
     ],
     overview:
-      "Saya berhasil merancang desain Pemira FIKTI UG 2025, ajang tahunan pemilihan Ketua Umum dan Wakil Ketua Umum BEM FIKTI Universitas Gunadarma sebagai wujud demokrasi mahasiswa di lingkungan FIKTI. Proyek ini dikerjakan melalui kolaborasi dengan Biro Media untuk pembuatan aset visual dan Biro Humas untuk penyusunan copywriting.",
+      "Merancang desain Pemira FIKTI UG 2025 bersama Biro Media dan Biro Humas.",
+    solution:
+      "Menyediakan desain visual kampanye yang informatif dan mudah diakses mahasiswa.",
+    result:
+      "Proses kampanye dan pemilihan berjalan lancar dengan partisipasi yang signifikan.",
   },
 
   {
@@ -59,13 +70,17 @@ export const projects: Project[] = [
     slug: "/projects/tedu-apps",
     bgGradient: "from-purple-background via-purple-background to-[#c39eff]",
     description:
-      "Teddu adalah aplikasi pembelajaran berbasis mobile yang menghadirkan pengalaman belajar interaktif, kolaboratif, dan adaptif. Dilengkapi fitur kuis, taskboard, e-book, chatbot, dan forum diskusi publik, Teddu dirancang untuk meningkatkan motivasi, keterlibatan, dan hasil belajar siswa melalui antarmuka yang intuitif dan mudah digunakan.",
-    images: ["/projects/tedu.jpg"], // gunakan poster image dari video
+      "Teddu adalah aplikasi pembelajaran berbasis mobile yang menghadirkan pengalaman belajar interaktif, kolaboratif, dan adaptif.",
+    images: ["/projects/tedu.jpg"],
     tags: [
       { icon: <FaAndroid />, label: "Mobile Apps" },
       { icon: <FaFigma />, label: "Figma" },
     ],
     overview:
-      "Teddu menghadirkan ekosistem pembelajaran digital lengkap dengan fitur kuis, taskboard, e-book, chatbot, dan forum diskusi publik untuk mendukung proses belajar mengajar modern.",
+      "Teddu menghadirkan ekosistem pembelajaran digital lengkap dengan fitur kuis, taskboard, e-book, chatbot, dan forum diskusi publik.",
+    solution:
+      "Merancang UI/UX aplikasi mobile dengan fokus pada kemudahan navigasi dan interaksi pengguna.",
+    result:
+      "Pengujian awal menunjukkan peningkatan keterlibatan siswa hingga 40%.",
   },
 ];
